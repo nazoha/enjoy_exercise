@@ -1,0 +1,8 @@
+#gitignore
+#無視するファイルやフォルダを指定する
+
+#PhpStormのコンフィグファイルを無視
+.idea/
+
+#example_koaは試しに書いたサンプルコードだから無視（後でmasterから消すかも）
+example_koa/
