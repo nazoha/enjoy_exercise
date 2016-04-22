@@ -3,6 +3,7 @@
 * Node.js使う
 * フレームワークはkoa
 * テンプレートエンジンはJade
+* OAuth認証(Twitter)
 * LineAPIをいつか使いたい
 * APIも作ってみたい
 * TODOリストを作る
