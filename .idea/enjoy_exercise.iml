@@ -12,5 +12,10 @@
     <orderEntry type="library" name="JQuery" level="application" />
     <orderEntry type="library" name="jade-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="jQuery-2.0.0" level="application" />
+    <orderEntry type="library" name="passport-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-twitter-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="koa-static-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="request-promise-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="enjoy_exercise node_modules" level="project" />
   </component>
 </module>

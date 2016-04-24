@@ -1,35 +1,25 @@
-var koa = require('koa');
-var _ = require('koa-route');
-var views = require('co-views');
-var serve = require('koa-static');
-var app = koa();
+const koa = require('koa');
+const views = require('co-views');
+const serve = require('koa-static');
+const bodyParser = require('koa-bodyparser');
+const logger = require('koa-logger');
+const json = require('koa-json');
+const session = require('koa-session');
+const passport = require('./routing/twitter_passport');
+const route = require('./routing/route');
+const app = koa();
 
-var render = views(__dirname + '/views', {ext: 'jade'});
+app.use(logger());
+app.use(bodyParser());
+app.keys = ['secret'];
+app.use(session(app));
+app.use(json());
 app.use(serve(__dirname + '/public/dist/JADE-Bootstrap'));
 
-var title = "E2";
+passport(app);
 
-app.use(_.get('/', function *() {
-    this.body = yield render('index', {
-        title: title,
-        body: {
-            user: "test"
-        }
-    });
-})).use(_.get('/introduction', function *() {
-    this.body = yield render('introduction', {
-        title: title
-    });
-})).use(_.get('/login', function *() {
-    this.body = yield render('login', {
-        title: title
-    });
-})).use(_.get('/login', function *() {
-    
-}));
-
-app.on('error', function *(err) {
-    console.log(err);
-});
+route(app);
 
 app.listen(3000);
+
+module.exports = app;
