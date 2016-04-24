@@ -1,0 +1,44 @@
+{
+  "name": "enjoy_exercise",
+  "version": "1.0.0",
+  "description": "最近運動するようになったからそれを楽しく、続けられるようなWebアプリを作る\r * Node.js使う\r * フレームワークはkoa\r * テンプレートエンジンはJade\r * LineAPIをいつか使いたい\r * APIも作ってみたい",
+  "main": "OAuthLogin.js",
+  "dependencies": {
+    "co-views": "^2.1.0",
+    "jade": "^1.11.0",
+    "jade-bootstrap": "^1.0.2",
+    "jquery": "^2.2.3",
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-convert": "^1.2.0",
+    "koa-generic-session": "^1.10.2",
+    "koa-json": "^1.1.1",
+    "koa-mongo": "^0.5.0",
+    "koa-passport": "^1.3.1",
+    "koa-route": "^2.4.2",
+    "koa-session": "^3.3.1",
+    "koa-static": "^2.0.0",
+    "mongoose": "^4.4.13",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4",
+    "request-promise": "^3.0.0",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "koa-logger": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazoha/enjoy_exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazoha/enjoy_exercise/issues"
+  },
+  "homepage": "https://github.com/nazoha/enjoy_exercise#readme"
+}
