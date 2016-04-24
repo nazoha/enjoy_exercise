@@ -4,8 +4,11 @@
 #PhpStormのコンフィグファイルを無視
 .idea/
 
+<<<<<<< HEAD
 #example_koaは試しに書いたサンプルコードだから無視（後でmasterから消すかも）
 example_koa/
 
+=======
+>>>>>>> create-OAuth-Login
 #configファイル
 config/consumer.json
