@@ -6,3 +6,6 @@
 
 #example_koaは試しに書いたサンプルコードだから無視（後でmasterから消すかも）
 example_koa/
+
+#configファイル
+config/consumer.json
