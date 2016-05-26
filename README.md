@@ -4,6 +4,7 @@
 * ~~フレームワークはkoa~~
 * ~~テンプレートエンジンはJade~~
 * ~~OAuth認証(Twitter)~~
+* MongoDBでデータの管理
 * LineAPIをいつか使いたい
 * APIも作ってみたい
 * TODOリストを作る
